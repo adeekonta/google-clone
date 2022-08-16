@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	font-family: arial, helvetica, sans-serif;
+}
+
+body{
+	width: 100%;
+	height:100%;
+	background-color: black;
+	color: white;
+}
+
+.navbar{
+	display: block;
+	float: right;
+	height: 50px;
+	padding: 10px;
+}
+
+.navbar-wrapper{
+	width: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 13px;
+}
+
+.navbar-wrapper > a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.navbar-wrapper > a:hover{
+	text-decoration: underline;
+}
+
+.app, .account{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.account > img{
+	width: 32px;
+	height: 32px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.app:hover,
+.account:hover{
+	background-color: #f2f2f2;
+}
+
+
+.app > i{
+	
+}
+
+.main{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 55px 50px;
+}
+
+.logo{
+	margin-left: 32%;
+	margin-top: 10%
+}
+
+.search{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 280px;
+	width: 68%;
+	height: 35px;
+	border: 1px solid #e7e8eb;
+	border-radius: 30px;
+	padding: 5px 15px;
+	margin-left: 17%;
+	margin-top: 10px;
+}
+
+
+.search:hover{
+	box-shadow: 0 1px 6px rgb( 32 33 36 /28%);
+}
+
+
+.search span{
+	width: 15px;
+	height: 15px;
+	color: #a5aab0;
+}
+
+
+.search input{
+	width: 90%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	font-size: 15px;
+	color: white;
+}
+
+
+.search img{
+	width: 20px;
+	height:20px;
+	cursor: pointer;
+}
+
+.search-button button{
+	border: 1px solid f8f9fa;
+	border-radius: 2px;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 16px;
+	margin: 0px 4px;
+	cursor: pointer;
+	margin-top: 10px; 
+	height: 28px;
+}
+
+.search-button button:hover{
+	border: 1px solid #e7e8eb;
+	box-shadow: 0 2px 2px -2px #a5aab0;
+}
+
+.search-button .button-search{
+    margin-left: 400px;	
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.search-button .button-lucky{
+	background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.search-language{
+	display: flex;
+	font-size: 13px;
+	margin-left: 347px;
+	margin-top: 7px;
+}
+
+.search-language a{
+    text-decoration: none;
+    color: #1a0dab;
+    padding: 0px 5px;
+}
+
+.search-language a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #373737;
+	font-size: 14px;
+}
+
+.left-menu > a{
+	text-decoration: none;
+	color: white;
+	float: left;
+
+}
+
+
+.right-menu > a{
+	text-decoration: none;
+	color: white;
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
